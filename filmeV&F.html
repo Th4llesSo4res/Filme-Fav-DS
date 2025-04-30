@@ -3,52 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Saga Velozes e Furiosos</title>
+  <title>Velozes e Furiosos - Homenagem</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Cabeçalho principal -->
+  <!-- Navbar -->
   <header>
-    <h1>Saga Velozes e Furiosos</h1>
-    <p>Alta velocidade, ação, família e muita adrenalina.</p>
+    <h1>Velozes e Furiosos</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#tokyo">Tokyo Drift</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- Seção de introdução -->
-  <section class="intro">
+  <!-- Seção Início -->
+  <section id="inicio" class="intro">
     <h2>Sobre a Saga</h2>
-    <p>A franquia Velozes e Furiosos começou em 2001 e se tornou um fenômeno mundial. Misturando corridas de rua, ação intensa e valores de família, a saga evoluiu de filmes sobre rachas ilegais para grandes produções com espionagem global e acrobacias insanas.</p>
+    <p>A franquia Velozes e Furiosos é muito mais que apenas carros e corridas. Desde 2001, ela conquistou corações no mundo inteiro com adrenalina, ação e, claro, muita família. São mais de 10 filmes, cada um com sua emoção única, personagens marcantes e trilhas sonoras inesquecíveis.</p>
+    <p>Do underground de Los Angeles ao mundo do crime internacional, a saga cresceu junto com o público — mas o que nunca mudou foi o amor pelos carros, velocidade e a importância da lealdade. É uma verdadeira celebração da cultura automotiva e da irmandade.</p>
   </section>
 
-  <!-- Galeria com imagens espalhadas -->
-  <section class="galeria">
-    <h2>Imagens Marcantes</h2>
+  <!-- Seção Tokyo Drift -->
+  <section id="tokyo" class="tokyo">
+    <h2>Velozes e Furiosos: Desafio em Tóquio</h2>
+    <p>"Desafio em Tóquio" é o terceiro filme da franquia, e é considerado por muitos — inclusive por mim — o mais estiloso e ousado de todos. Ambientado nas ruas iluminadas de neon de Tóquio, o filme apresenta o universo do drift com cenas de corrida inacreditáveis e visual vibrante.</p>
+    <p>O personagem Han, que se tornou um dos mais amados da franquia, brilha nesse filme. Seu carro laranja, um Mazda RX-7 Veilside, virou ícone da cultura automotiva. A atmosfera japonesa, a trilha sonora marcante e o estilo dos personagens fazem desse filme uma verdadeira obra de arte da franquia.</p>
+    <p>Curiosidade: muitas cenas foram gravadas de verdade nas ruas de Tóquio — sem permissão! A equipe de filmagem usou câmeras escondidas e gravou várias tomadas de forma clandestina.</p>
+  </section>
+
+  <!-- Seção Galeria -->
+  <section id="galeria" class="galeria">
+    <h2>Galeria de Imagens</h2>
+    <figure class="carro1">
+      <img src="img/carroHan.jpg" alt="Carro do Han" />
+      <figcaption>Mazda RX-7 laranja do Han</figcaption>
+    </figure>
+
+    <figure class="carro2">
+      <video autoplay muted loop playsinline width="100%" poster="https://i.imgur.com/IUffGXL.jpeg">
+        <source src="img/driftking.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+      </video>
+      <figcaption>Drift nas curvas de Tóquio</figcaption>
+    </figure>
     
-    <!-- Cada imagem tem uma classe distinta para configuração individual -->
-    <img src="https://upload.wikimedia.org/wikipedia/pt/7/7e/Fast_and_furious_poster.jpg" alt="Pôster do primeiro filme" class="figura1">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Vin_Diesel_by_Gage_Skidmore_2.jpg/640px-Vin_Diesel_by_Gage_Skidmore_2.jpg" alt="Vin Diesel" class="figura2">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Paul_Walker_2006.jpg" alt="Paul Walker" class="figura3">
-    <img src="https://upload.wikimedia.org/wikipedia/pt/b/bc/Fast_Five_Poster.jpg" alt="Fast Five" class="figura1">
-    <img src="https://upload.wikimedia.org/wikipedia/en/d/d0/Furious_7_poster.jpg" alt="Furious 7 Poster" class="figura2">
 
+
+    <figure class="carro3">
+      <img src="img/familiatoreto.jpg" alt="Família reunida" />
+      <figcaption>Família sempre em primeiro lugar</figcaption>
+    </figure>
+    <figure class="carro1">
+      <img src="img/brianevinfilme1.jpg" alt="Cena icônica" />
+      <figcaption>Estilo, velocidade e atitude</figcaption>
+    </figure>
+    <figure class="carro2">
+      <img src="img/letty.jpg" alt="Letty e Dom" />
+      <figcaption>Letty e Dom: casal raiz das pistas</figcaption>
+    </figure>
   </section>
 
-  <!-- Curiosidades -->
-  <section class="curiosidades">
-    <h2>Curiosidades</h2>
+  <!-- Seção Curiosidades -->
+  <section id="curiosidades" class="curiosidades">
+    <h2>Curiosidades da Franquia</h2>
     <ul>
-      <li>O primeiro filme foi inspirado em um artigo sobre corridas ilegais em Nova York.</li>
-      <li>Paul Walker era realmente apaixonado por carros na vida real.</li>
-      <li>Vin Diesel considera Dominic Toretto seu personagem mais importante.</li>
-      <li>Velozes e Furiosos 7 teve que ser finalizado com CGI após a morte de Paul Walker.</li>
-      <li>A franquia já arrecadou mais de 6 bilhões de dólares mundialmente.</li>
+      <li>Paul Walker era apaixonado por carros na vida real e fazia várias cenas sem dublê.</li>
+      <li>Vin Diesel aceitou participar do Desafio em Tóquio em troca dos direitos da franquia Riddick.</li>
+      <li>O carro do Han foi modificado no Japão exclusivamente para o filme.</li>
+      <li>“Tokyo Drift” ajudou a popularizar o drift no Ocidente e inspirou milhares de pilotos iniciantes.</li>
+      <li>As luzes neon, a trilha sonora e a estética japonesa transformaram esse filme num clássico cult.</li>
     </ul>
   </section>
-
-  <!-- Rodapé -->
-  <footer>
-    <p>Site criado por um fã da franquia Velozes e Furiosos.</p>
-  </footer>
 
 </body>
 </html>
